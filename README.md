@@ -33,7 +33,6 @@ ng build --deploy-url /dashboard/
 import { Routes } from '@angular/router';
 import { HomeComponent } from './components/home/home.component';
 import { AboutComponent } from './components/about/about.component';
-import { DashboardComponent } from './components/dashboard/dashboard.component';
 
 const appRoutes: Routes = [
   { path: 'home', 
@@ -42,9 +41,6 @@ const appRoutes: Routes = [
   {
     path: 'about',
     component: AboutComponent
-  },
-  { path: 'dashboard',
-    component: DashboardComponent
   }
 ];
 export default appRoutes;
