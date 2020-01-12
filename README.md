@@ -1,17 +1,6 @@
 ## Configurar e Instalar dependencias 
 ```
-npm install -g @angular/cli
-```
-
-### Cria um novo projeto chamado "Angular-app"
-```
-ng new Angular-app
-```
-
-### Criar 2 componentes (paginas)
-```
-ng g c home
-ng g c about
+npm install
 ```
 
 ### Iniciar um servidor de desenvolvimento
